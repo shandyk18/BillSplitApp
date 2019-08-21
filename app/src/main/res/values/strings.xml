@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bill Split</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="num_split">Split By</string>
+    <string name="button_tip_ten">10%</string>
+    <string name="button_tip_fifteen">15%</string>
+    <string name="button_tip_twenty">20%</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="view_result"></string>
+</resources>
