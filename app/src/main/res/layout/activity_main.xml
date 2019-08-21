@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/billTotal" />
 
     <Button
-        android:id="@+id/tipTwenty"
+        android:id="@+id/tipFifteen"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -61,18 +61,6 @@
         app:layout_constraintTop_toBottomOf="@+id/billTotal" />
 
     <Button
-        android:id="@+id/tipTwenty"
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:background="@color/colorAccent"
-        android:text="@string/button_tip_twenty"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/splitBy" />
-
-    <Button
         android:id="@+id/buttonCalculate"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
@@ -82,12 +70,11 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:background="@color/colorPrimary"
-        android:onClick="calculate"
         android:text="@string/button_calculate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tipTwenty" />
+        app:layout_constraintTop_toBottomOf="@+id/tipFifteen" />
 
     <TextView
         android:id="@+id/result"
@@ -106,5 +93,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCalculate" />
+
+    <Button
+        android:id="@+id/tipTwenty"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/colorAccent"
+        android:text="@string/button_tip_twenty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splitBy" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
